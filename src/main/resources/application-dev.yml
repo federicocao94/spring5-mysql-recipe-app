@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/sfg_dev
+    url: jdbc:mysql://localhost:3306/sfg_dev?serverTimezone=UTC&useLegacyDatetimeCode=false
     username: sfg_dev_user
-    password: guru
+    password: sfg_dev_user
   jpa:
     hibernate:
       ddl-auto: validate
